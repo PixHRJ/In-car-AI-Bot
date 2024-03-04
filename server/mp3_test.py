@@ -51,18 +51,18 @@ def conctrl_music(a):
     threading.Thread(target=control_music, args=(a,)).start()
 
 # Main program loop
-while True:
-    set = input("Enter your command: ")
-    if set == "play":
-        create_threading()
-    elif set == "pause":
-        conctrl_music("p")
-    elif set == "resume":
-        conctrl_music("u")
-    elif set == "stop":
-        conctrl_music("q")
-        break
-    elif set == "next":
-        conctrl_music("n")
-    elif set == "previous":
-        conctrl_music("b")
+# while True:
+#     set = input("Enter your command: ")
+#     if set == "play":
+#         create_threading()
+#     elif set == "pause":
+#         conctrl_music("p")
+#     elif set == "resume":
+#         conctrl_music("u")
+#     elif set == "stop":
+#         conctrl_music("q")
+#         break
+#     elif set == "next":
+#         conctrl_music("n")
+#     elif set == "previous":
+#         conctrl_music("b")
